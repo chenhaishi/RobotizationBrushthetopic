@@ -12,16 +12,10 @@ namespace Web.Controllers
     {
         public ActionResult Index()
         {
-            TSTTHandle h = new TSTTHandle();
-
-            TSTT tSTT = new TSTT();
-            tSTT.ID = 1;
-            tSTT.Name = "zhonglunpan";
-
-            var count = h.add(tSTT);
+            
             return View();
             
-        }
+        }  
 
         public ActionResult About()
         {
