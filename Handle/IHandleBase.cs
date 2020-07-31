@@ -9,7 +9,7 @@ namespace Handle
 {
     public interface IHandleBase<T>: IRepostitory<T> where T : class
     {
-        int Add(T t);
+        
 
     }
 }
